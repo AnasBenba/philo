@@ -4,7 +4,7 @@ CC = cc
 
 CFLAGS = -Wall -Wextra -Werror
 
-PHILO_SRC = philo.c functions.c
+PHILO_SRC = philo.c functions.c functions1.c functions2.c functions3.c functions4.c
 
 PHILO_OBJ = $(PHILO_SRC:.c=.o)
 
